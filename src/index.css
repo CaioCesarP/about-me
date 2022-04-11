@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  transition: all 0.4s;
+}
+
+.makeStyles-Imagem-110:hover, .makeStyles-Imagem-110.focus {
+  transform: none;
+}
+
+img:hover, img:focus {
+  position: relative;
+  transform: scale(1.13);
+  box-shadow: 0 0 1rem white;
+}
