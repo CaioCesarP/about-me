@@ -34,6 +34,13 @@ const useStyles = makeStyles(() => ({
   Conhecimentos: {
     display: "flex",
     flexDirection: "row",
+
+    color: "darkblue",
+    backgroundColor: "rgba( 255, 255, 255, 0.3 )",
+    backdropFilter: "blur( 12px )",
+
+    padding: "0 0.5rem",
+    borderRadius: "0.8rem"
   },
 
   "@media (max-width: 600px)": {
