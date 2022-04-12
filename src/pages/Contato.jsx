@@ -114,6 +114,7 @@ const Contact = () => {
           <a
             className={styles.Destaque}
             href="https://github.com/CaioCesarP"
+            target="_blank"
             title="CaioCesarP"
           >
             <IconButton>
@@ -124,6 +125,7 @@ const Contact = () => {
           <a
             className={styles.Destaque}
             href="https://www.linkedin.com/in/profile-caio-c%C3%A9sar-link/"
+            target="_blank"
             title="Caio César"
           >
             <IconButton color="info">
@@ -134,6 +136,7 @@ const Contact = () => {
           <a
             className={styles.Destaque}
             href="mailto:caiocesarworks@gmail.com"
+            target="_blank"
             title="caiocesarworks@gmail.com"
           >
             <IconButton color="secondary">
