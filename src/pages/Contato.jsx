@@ -163,7 +163,7 @@ const Contact = () => {
             width="956"
             height="300"
             allowfullscreen="yes"
-            loading="lazy"
+            loading="eager"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
