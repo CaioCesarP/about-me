@@ -50,6 +50,7 @@ const useStyles = makeStyles(() => ({
   },
   Destaque: {
     textAlign: "center",
+    textDecoration: "none",
     marginBottom: "8rem",
     transition: "all 0.4s",
     backgroundColor: "white",
