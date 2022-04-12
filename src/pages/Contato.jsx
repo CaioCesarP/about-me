@@ -69,6 +69,7 @@ const useStyles = makeStyles(() => ({
     borderRadius: "10px",
     boxShadow: "0 0 2rem purple",
     transition: "all 1s",
+    backgroungColor: "whitesmoke",
   },
   Info: {
     textShadow: "white 1px 0",
