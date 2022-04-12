@@ -25,8 +25,8 @@ const useStyles = makeStyles(() => ({
     color: "pink",
     fontWeight: "bold",
     Spot: {
-        height: "6rem",
-        cursor: "default", 
+      height: "6rem",
+      cursor: "default",
     },
   },
   Place: {
@@ -72,7 +72,11 @@ const Box = () => {
         <Typography variant="h4">Formação Acadêmica</Typography>
         <div className={styles.Place}>
           <div className={styles.Spot}>
-            <a href="https://www.ufc.br/" title="Universidade Federal do Ceará">
+            <a
+              href="https://www.ufc.br/"
+              target="_blank"
+              title="Universidade Federal do Ceará"
+            >
               <img
                 src="https://media-exp1.licdn.com/dms/image/C4D0BAQF1N2DHs0kqjA/company-logo_100_100/0/1594918756352?e=1656547200&v=beta&t=KK1uhzrLi7gMRUbIF8y0bZQug1rFAaFS9syMKxw3krY"
                 alt="Universidade Federal do Ceará"
@@ -80,7 +84,11 @@ const Box = () => {
             </a>
           </div>
           <div className={styles.Spot}>
-            <a href="https://digitalcollege.com.br/" title="Digital College">
+            <a
+              href="https://digitalcollege.com.br/"
+              target="_blank"
+              title="Digital College"
+            >
               <img
                 src="https://media-exp1.licdn.com/dms/image/C4D0BAQFCvyAGW0glNQ/company-logo_100_100/0/1636339682984?e=1656547200&v=beta&t=n6awCIHBok-ZQVFd_FKOpeqjSiK6XOvDNXuGama8Mvs"
                 alt="Digital College"
@@ -88,7 +96,7 @@ const Box = () => {
             </a>
           </div>
           <div className={styles.Spot}>
-            <a href="https://www.alura.com.br/" title="Alura">
+            <a href="https://www.alura.com.br/" target="_blank" title="Alura">
               <img
                 src="https://media-exp1.licdn.com/dms/image/C4E0BAQEHX7cfhFZv8w/company-logo_100_100/0/1638241687335?e=1656547200&v=beta&t=towBppBafs0iCC6H9NA3iRYXRnbQqoRjDGVqXheWsA0"
                 alt="Alura"
@@ -103,6 +111,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a
               href="https://itargettecnologia.com.br/"
+              target="_blank"
               title="Itarget Tecnologia"
             >
               <img
