@@ -23,7 +23,7 @@ const useStyles = makeStyles(() => ({
     fontStyle: "italic",
   },
 
-  "@media (max-width: 600px)": {
+  "@media (max-width: 900px)": {
     Aparece: {
       display: "none",
     },

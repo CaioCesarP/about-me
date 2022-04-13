@@ -62,6 +62,13 @@ const useStyles = makeStyles(() => ({
       boxShadow: "0.7rem 0.7rem 1rem purple",
     },
   },
+  "@media (max-width: 900px)": {
+    Place: {
+      display: "grid",
+      gridTemplateColumns: "repeat(2, 1fr)",
+      gridTemplateRows: "repeat(2, 1fr)",
+    },
+  }
 }));
 
 const Box = () => {
@@ -128,7 +135,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="#html&css" title="HTML5 & CSS3">
               <img
-                src="https://media-exp1.licdn.com/dms/image/C5607AQG-H8xlUETsIQ/group-logo_image-shrink_92x92/0/1639827331554?e=1648648800&v=beta&t=QyZtWO-H0rmGQvfX4RvVvGPhnOavR3TPTxg8WccATbE"
+                src="https://media-exp1.licdn.com/dms/image/C510BAQE2CbOteLAtog/company-logo_100_100/0/1519921548853?e=2147483647&v=beta&t=g_8q4fRZWvdXtCUemkzLV2gThjHzfHzddKZvcsIsMlw"
                 alt="HTML5 & CSS3"
               />
             </a>
@@ -136,7 +143,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="#JavaScript" title="JavaScript">
               <img
-                src="https://media-exp1.licdn.com/dms/image/C4D07AQFK5LmvZWWTGg/group-logo_image-shrink_92x92/0/1630999696851?e=1648648800&v=beta&t=6jSf9C-XSTqQj2Wsl6Vp0_sg9H6DRn1FJ19gXur1zzw"
+                src="https://media-exp1.licdn.com/dms/image/C4E0BAQGM-XbYcHNW_g/company-logo_100_100/0/1622479474715?e=2147483647&v=beta&t=uKi7g8ifN0F-6A0TQ-WdCXQNo1H3B49rq0tPFrMP0XI"
                 alt="JavaScript"
               />
             </a>
@@ -144,7 +151,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="#ReactJs" title="React Js">
               <img
-                src="https://media-exp1.licdn.com/dms/image/C5107AQHqe3L-6LMsUg/group-logo_image-shrink_92x92/0/1631006326814?e=1648648800&v=beta&t=N_b2WJdO8Hrs186ODSvAKDxuqKbLqJB_csl4E6NTAXQ"
+                src="https://media-exp1.licdn.com/dms/image/C510BAQGyCfCQzGP_RA/company-logo_100_100/0/1519900931012?e=2147483647&v=beta&t=3DtcKwVw3f5hyLM19sm2c5hN1auO8bffGauR0-G7kLA"
                 alt="React Js"
               />
             </a>
@@ -152,7 +159,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="#MetodologiaÁgeis" title="Metodologias Ágeis">
               <img
-                src="https://media-exp1.licdn.com/dms/image/C4D07AQGjGdPAfJEHsA/group-logo_image-shrink_92x92/0/1544095609086?e=1648648800&v=beta&t=micYKWDhsaEeWGrTSKFNBGH35N96fLxBsoR-SxwekF8"
+                src="https://media-exp1.licdn.com/dms/image/C4E0BAQHR-glpgvGB6A/company-logo_100_100/0/1530746126089?e=2147483647&v=beta&t=pziT4gmcgOLn8kGSNUZmG3g1ef8J3-7HTVR9jXa91bM"
                 alt="Agile"
               />
             </a>

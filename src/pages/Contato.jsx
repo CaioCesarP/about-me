@@ -4,6 +4,7 @@ import { makeStyles } from "@mui/styles";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import { height } from "@mui/system";
 
 const useStyles = makeStyles(() => ({
   Container: {
@@ -35,8 +36,8 @@ const useStyles = makeStyles(() => ({
 
     backgroundColor: "#1129",
 
-    width: "20%",
-    height: "80%",
+    width: "23vw",
+    height: "84%",
   },
   Sociais: {
     display: "flex",
@@ -55,6 +56,7 @@ const useStyles = makeStyles(() => ({
     transition: "all 0.4s",
     backgroundColor: "white",
     borderRadius: "20px",
+    boxShadow: "1rem 1rem 1rem gray",
     "&:hover": {
       transform: "scale(1.2)",
       boxShadow: "0 0 0.5rem white",
@@ -71,6 +73,10 @@ const useStyles = makeStyles(() => ({
     boxShadow: "0 0 2rem purple",
     transition: "all 1s",
     backgroungColor: "whitesmoke",
+  },
+  Map: {
+    width: "99.7%",
+    height: "98.6%",
   },
   Info: {
     textShadow: "white 1px 0",
@@ -92,6 +98,9 @@ const useStyles = makeStyles(() => ({
     Destaque: {
       marginBottom: "5rem",
     },
+    Egg: {
+      transform: "scale( 0.5 )",
+    }
   },
 
   "@media (min-width: 900px)": {
@@ -104,7 +113,7 @@ const useStyles = makeStyles(() => ({
     Egg: {
       display: "none",
     },
-  }
+  },
 }));
 
 const Contact = () => {
@@ -161,9 +170,8 @@ const Contact = () => {
         <div className={styles.Mapa}>
           <iframe
             title="Fortaleza - CE"
+            className={styles.Map}
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127394.50262997916!2d-38.58965567721091!3d-3.7931403323899913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c3f464c783f%3A0x4661c60a0c6b37ca!2sFortaleza%20-%20CE!5e0!3m2!1spt-BR!2sbr!4v1648645267726!5m2!1spt-BR!2sbr"
-            width="956"
-            height="300"
             allowfullscreen="yes"
             loading="eager"
             referrerpolicy="no-referrer-when-downgrade"

@@ -58,6 +58,16 @@ const useStyles = makeStyles(() => ({
       display: "none",
     },
   },
+  "@media (max-width: 900px)": {
+    painel: {
+      display: "flex",
+      flexDirection: "row",
+  
+      justifyContent: "space-around",
+      backgroundColor: "black",
+      height: "110vh",
+    },
+  },
 }));
 
 const About = () => {
