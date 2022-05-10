@@ -38,6 +38,10 @@ const useStyles = makeStyles(() => ({
   Spot: {
     height: "7rem",
   },
+  Image: {
+    width: "auto",
+    heigth: "auto",
+  },
 
   "@media (max-width: 600px)": {
     Box: {
@@ -85,6 +89,7 @@ const Box = () => {
               title="Universidade Federal do Ceará"
             >
               <img
+                className={styles.Image}
                 src="https://media-exp1.licdn.com/dms/image/C4D0BAQF1N2DHs0kqjA/company-logo_100_100/0/1594918756352?e=1656547200&v=beta&t=KK1uhzrLi7gMRUbIF8y0bZQug1rFAaFS9syMKxw3krY"
                 alt="Universidade Federal do Ceará"
               />
@@ -97,6 +102,7 @@ const Box = () => {
               title="Digital College"
             >
               <img
+                className={styles.Image}
                 src="https://media-exp1.licdn.com/dms/image/C4D0BAQFCvyAGW0glNQ/company-logo_100_100/0/1636339682984?e=1656547200&v=beta&t=n6awCIHBok-ZQVFd_FKOpeqjSiK6XOvDNXuGama8Mvs"
                 alt="Digital College"
               />
@@ -105,6 +111,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="https://www.alura.com.br/" target="_blank" title="Alura">
               <img
+                className={styles.Image}
                 src="https://media-exp1.licdn.com/dms/image/C4E0BAQEHX7cfhFZv8w/company-logo_100_100/0/1638241687335?e=1656547200&v=beta&t=towBppBafs0iCC6H9NA3iRYXRnbQqoRjDGVqXheWsA0"
                 alt="Alura"
               />
@@ -122,6 +129,7 @@ const Box = () => {
               title="Itarget Tecnologia"
             >
               <img
+                className={styles.Image}
                 src="https://media-exp1.licdn.com/dms/image/C4E0BAQFKRgIEYkyLyQ/company-logo_100_100/0/1573314093891?e=1656547200&v=beta&t=9kmHZOXtnB0PZA8doFUA-4jbq9mDC68xK2IKvzj9cgk"
                 alt="Itarget Tecnologia"
               />
@@ -135,6 +143,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="#html&css" title="HTML5 & CSS3">
               <img
+                className={styles.Image}
                 src="https://media-exp1.licdn.com/dms/image/C510BAQE2CbOteLAtog/company-logo_100_100/0/1519921548853?e=2147483647&v=beta&t=g_8q4fRZWvdXtCUemkzLV2gThjHzfHzddKZvcsIsMlw"
                 alt="HTML5 & CSS3"
               />
@@ -143,6 +152,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="#JavaScript" title="JavaScript">
               <img
+                className={styles.Image}
                 src="https://media-exp1.licdn.com/dms/image/C4E0BAQGM-XbYcHNW_g/company-logo_100_100/0/1622479474715?e=2147483647&v=beta&t=uKi7g8ifN0F-6A0TQ-WdCXQNo1H3B49rq0tPFrMP0XI"
                 alt="JavaScript"
               />
@@ -151,6 +161,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="#ReactJs" title="React Js">
               <img
+                className={styles.Image}
                 src="https://media-exp1.licdn.com/dms/image/C510BAQGyCfCQzGP_RA/company-logo_100_100/0/1519900931012?e=2147483647&v=beta&t=3DtcKwVw3f5hyLM19sm2c5hN1auO8bffGauR0-G7kLA"
                 alt="React Js"
               />
@@ -159,6 +170,7 @@ const Box = () => {
           <div className={styles.Spot}>
             <a href="#MetodologiaÁgeis" title="Metodologias Ágeis">
               <img
+                className={styles.Image}
                 src="https://media-exp1.licdn.com/dms/image/C4E0BAQHR-glpgvGB6A/company-logo_100_100/0/1530746126089?e=2147483647&v=beta&t=pziT4gmcgOLn8kGSNUZmG3g1ef8J3-7HTVR9jXa91bM"
                 alt="Agile"
               />

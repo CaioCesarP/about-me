@@ -1,17 +1,4 @@
-.box-glass {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    justify-content: center;
-
-    width: 80%;
-    height: 70%;
-
-    background: rgba( 225, 255, 255, 0.1 );
+.box-glass {    
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
-
-    box-shadow: 0rem 0rem 0.2rem whitesmoke;
-    border-radius: 10px;
 }

@@ -13,7 +13,21 @@ const useStyles = makeStyles(() => ({
 
     marginTop: "3rem",
   },
+  Glass: {
+    display: "flex",
+    flexDirection: "column",
 
+    alignItems: "center",
+    justifyContent: "center",
+
+    width: "80%",
+    height: "70%",
+
+    background: "rgba( 225, 255, 255, 0.1 )",
+
+    boxShadow: "0rem 0rem 0.2rem whitesmoke",
+    borderRadius: "10px",
+  },
   Corpo: {
     display: "flex",
     flexDirection: "column",
@@ -30,6 +44,8 @@ const useStyles = makeStyles(() => ({
   Imagem: {
     border: "3px solid blueviolet",
     borderRadius: "20rem",
+    width: "auto",
+    height: "auto",
   },
   Conhecimentos: {
     display: "flex",
@@ -40,7 +56,7 @@ const useStyles = makeStyles(() => ({
     backdropFilter: "blur( 12px )",
 
     padding: "0 0.5rem",
-    borderRadius: "0.8rem"
+    borderRadius: "0.8rem",
   },
 
   "@media (max-width: 600px)": {
@@ -60,7 +76,7 @@ const Home = () => {
   return (
     <div>
       <div className={styles.Corpo}>
-        <div className="box-glass">
+        <div className={`${styles.Glass} box-glass`}>
           <img
             src="https://media-exp1.licdn.com/dms/image/C4D03AQEAaRd4RXLfjQ/profile-displayphoto-shrink_200_200/0/1646976255698?e=1654128000&v=beta&t=h4Pz3hi6ncM0P73sVr65WyDHhBCq7HoRgk30OH8PcnM"
             alt="foto do autor"

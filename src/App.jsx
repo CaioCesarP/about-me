@@ -1,7 +1,7 @@
 import Nav from "./components/Nav";
 import Home from "./pages/home/Home";
-import About from "./pages/Sobre";
-import Contato from "./pages/Contato";
+import About from "./pages/sobre/Sobre";
+import Contato from "./pages/contato/Contato";
 
 import * as React from "react";
 import { makeStyles } from "@mui/styles";
